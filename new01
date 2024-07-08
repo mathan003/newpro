@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>form</title>
+</head>
+
+<body>
+    <header style="background-color: blue;">
+        <h1>
+            <center>Form</center>
+        </h1>
+    </header>
+    <form ><center><table>
+        
+            <tr><td><label >NAME:</label></td>
+            <td><input placeholder="candiate name" type="name" name="username"></td></tr>
+            <tr><td><label for="date">DATE OF BIRTHDAY</label></td>
+            <td><input placeholder="Date" type="date" name="data"></br></td></tr>
+            <tr><td><label style="font-size: larger;">Genter:</label></td>
+            <td><label>
+                <input type="radio" name="data" value="Male">Male</label>
+            <label>
+                <input type="radio" name="data" value="Female"> Female</label>
+            <label>
+                <input type="radio" name="data" value="Other">Others</label></td></tr>
+            <tr><td><label>Gmail</label></td>
+            <td><input placeholder="Mail" type="email" name="Mail"></td></tr></tr>
+            
+    </table></center>
+    <center><button ><a href="./loginpage.html">Submit</a></button></center>
+    </form>
+    <footer style="background-color: whitesmoke;">
+        <h1>
+            <center>End</center>
+        </h1>
+    </footer>
+</body>
+
+</html>
